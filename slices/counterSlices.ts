@@ -1,9 +1,7 @@
 import {
-  bindActionCreators,
   createSlice,
   PayloadAction,
 } from "@reduxjs/toolkit";
-import type { AppDispatch } from "../pages/_app";
 
 export interface CounterState {
   value: number;
